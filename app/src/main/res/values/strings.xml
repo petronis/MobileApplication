@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MobileApplication</string>
     <string name="action_settings">Settings</string>
+    <string name="First_layout">Enter contact information</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="launcher_activity_text">Study Timer</string>
 </resources>
