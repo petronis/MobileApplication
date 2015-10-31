@@ -8,23 +8,21 @@
     tools:context="com.example.lukas.mobileapplication.MainActivity">
 
     <fragment
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:name="com.example.lukas.mobileapplication.picture"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:name="com.example.lukas.mobileapplication.TopSectionFragment"
         android:id="@+id/fragment"
-        tools:layout="@layout/picture_fragmen"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp" />
+        tools:layout="@layout/top_section_fragment" />
 
     <fragment
         android:layout_width="270dp"
-        android:layout_height="100dp"
-        android:name="com.example.lukas.mobileapplication.study_time"
+        android:layout_height="270dp"
+        android:name="com.example.lukas.mobileapplication.BottomPictureFragment"
         android:id="@+id/fragment2"
-        tools:layout="@layout/study_time_fragment"
-        android:layout_alignParentTop="true"
+        tools:layout="@layout/bottom_picture_fragment"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_above="@+id/fragment" />
-
+        android:layout_marginBottom="49dp" />
 </RelativeLayout>
